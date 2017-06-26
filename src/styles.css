@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+    height: 100vh;
+    margin: 0;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.mg-top {
+    margin-top: 20px;
+}
+.split-end {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.split-begin {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+.containment {
+    width: 60%;
+}
+.center-them {
+    justify-content: center;
+}

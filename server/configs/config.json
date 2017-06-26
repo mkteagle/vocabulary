@@ -1,8 +1,0 @@
-{
-    "apiKey": "AIzaSyAqpV8Ly8ePsMnC9lw4qAePWSqOL8MVYMg",
-    "authDomain": "vocabulary-app.firebaseapp.com",
-    "databaseURL": "https://vocabulary-app.firebaseio.com",
-    "projectId": "vocabulary-app",
-    "storageBucket": "vocabulary-app.appspot.com",
-    "messagingSenderId": "734382270819"
-}

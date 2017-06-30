@@ -1,0 +1,73 @@
+.letsgo_btn {
+  background: #58ABD8;
+  border-radius: 2px;
+  color: white;
+  outline: none;
+  font-weight: bolder;
+  width: 425px;
+  height: 50px;
+  border: none;
+  padding: 5px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.letsgo_btn:hover {
+  background: white;
+  color: #58ABD8; }
+
+.dark_background {
+  height: 100vh;
+  background: #4F4F5C;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+input[type="email"] {
+  font-size: 0.8em;
+  font-weight: 500;
+  color: black;
+  padding: 10px 10px;
+  width: 425px;
+  outline: none;
+  border: 2px solid #999;
+  margin: 1.5em 0em 1em 0em;
+}
+h5 {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  color: #727280;
+}
+
+input[type="password"] {
+  font-size: 0.8em;
+  font-weight: 500;
+  color: black;
+  padding: 10px 10px;
+  width: 425px;
+  outline: none;
+  border: 2px solid #999;
+}
+.blog_cms_text {
+  font-family: 'Lato', sans-serif;
+  font-size: 72px;
+  color: #FFFFFF;
+  letter-spacing: 20px;
+}
+.wrapped_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.login {
+  width: 100%;
+  margin: 2em auto 0em;
+  text-align: center;
+  background: #fff;
+  padding: 30px;
+  height: 200px;
+}

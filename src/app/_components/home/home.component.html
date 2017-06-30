@@ -1,0 +1,20 @@
+<div class="center-container">
+  <div class="containment">
+    <div class="row center-them">
+      <div class="field">
+        <p class="control">
+          <span class="select is-large">
+      <select [(ngModel)]="selectedName">
+        <option class="gray" value="" selected>Choose a Name</option>
+        <option *ngFor="let name of names">{{name.name}}</option>
+      </select>
+    </span>
+        </p>
+      </div>
+    </div>
+      <div class="row-container">
+        <span class="split-begin space-around"><button class="button is-info" [disabled]="!beTruthy">Previous</button></span>
+        <span class="split-end space-around"><button class="button is-info" [disabled]="!selectedName" (click)="welcome()">Next</button></span>
+      </div>
+  </div>
+</div>

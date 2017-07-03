@@ -4,7 +4,7 @@ import {
     AppComponent,
     AdminComponent,
     HomeComponent,
-    NameComponent
+    StudentComponent
 } from './_components/index';
 
 import { AuthGuard } from './_guards/index';
@@ -23,9 +23,9 @@ const appRoutes: Routes = [
         ]
     },
     {
-        path: 'name/:name', component: NameComponent,
+        path: 'student/:name', component: StudentComponent,
         children: [
-            
+
         ]
     }
 ];

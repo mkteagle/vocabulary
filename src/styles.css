@@ -35,3 +35,8 @@ html, body {
 .space-around {
     margin: 20px 20px 0 20px;
 }
+.top {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+}

@@ -42,3 +42,5 @@ testem.log
 Thumbs.db
 /server/configs/config.json
 /src/app/app.config.ts
+server/config/secret.json
+server/config/config.json

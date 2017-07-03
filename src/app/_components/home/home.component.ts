@@ -21,7 +21,17 @@ export class HomeComponent implements OnInit {
     }).catch(this.error);
   }
   welcome() {
-    this.router.navigate(['/name', this.selectedName])
+    let param = '';
+    this.names.map(entry => {
+      if (entry.name === this.selectedName) {
+        param = entry.param;
+      }
+    })
+    this.router.navigate(['/student', param]);
   }
-
+  public createParam(title) {
+    title = title.replace(/\s+/g, '-').replace(/,/g, '').replace(/&/g, 'and').replace(/:/g, '');
+    title = title.replace(/[^\-\w\s]/gi, '').toLowerCase();
+    return title;
+  }
 }

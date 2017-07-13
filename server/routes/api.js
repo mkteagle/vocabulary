@@ -9,5 +9,6 @@ router.get('/', (req, res) => {
 });
 /* User Admin */
 router.get('/names', VocabController.getNames);
+router.post('/login', VocabController.login);
 
 module.exports = router;
